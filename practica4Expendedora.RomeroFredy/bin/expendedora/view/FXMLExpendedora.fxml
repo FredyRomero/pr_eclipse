@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="618.0" style="-fx-background-color: #5DADE2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="expendedora.controller.FXMLInterfazExpendedoraController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="115.0" minWidth="10.0" prefWidth="107.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="106.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="197.0" minWidth="10.0" prefWidth="112.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="209.0" minWidth="10.0" prefWidth="88.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="233.0" minWidth="10.0" prefWidth="203.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints />
+    <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="106.0" minHeight="10.0" prefHeight="73.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="58.0" minHeight="0.0" prefHeight="38.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="id20" mnemonicParsing="false" onAction="#id20Action" text="0,20 Cent" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id2" mnemonicParsing="false" onAction="#id2Action" text="2 Euros" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id5" mnemonicParsing="false" onAction="#id5Action" text="5 Euros" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id10" mnemonicParsing="false" onAction="#id10Action" text="0,10 Cent" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id1" mnemonicParsing="false" onAction="#id1Action" text="1 Euro" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id05" mnemonicParsing="false" onAction="#id05Action" text="0,05 Cent" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id50" mnemonicParsing="false" onAction="#id50Action" text="0,50 Cent" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="id02" mnemonicParsing="false" onAction="#id02Action" text="0,02 Cent" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Credito" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="40.0" left="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vuelta" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="5.0" top="30.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="idcredito" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="40.0" left="70.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="idvuelta" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="70.0" right="10.0" top="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cambio Disponible" wrappingWidth="64.421875" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="40.0" left="5.0" top="80.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="idcambio" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="40.0" left="70.0" right="10.0" top="80.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button fx:id="idcancelar" mnemonicParsing="false" onAction="#idcancelarAction" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Cancelar" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="75.0" top="65.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="idp1" alignment="CENTER" contentDisplay="CENTER" layoutY="4.0" mnemonicParsing="false" onAction="#idp1Action" prefHeight="51.0" prefWidth="76.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2" text="Button" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="66.0" fitWidth="49.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/bezoya.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="idp2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#idp2Action" prefHeight="58.0" prefWidth="75.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="61.0" opacity="0.17" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/aquarius.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="idp4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#idp4Action" prefHeight="51.0" prefWidth="76.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2" text="Button" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="53.0" fitWidth="57.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/doritos.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="idp5" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#idp5Action" prefHeight="39.0" prefWidth="74.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="73.0" fitWidth="52.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/chicle.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="idp3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#idp3Action" prefHeight="57.0" prefWidth="78.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="49.0" fitWidth="51.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/coca.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="idp6" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#idp6Action" prefHeight="60.0" prefWidth="78.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="57.0" fitWidth="51.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/Pizza.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Estado Expendedora: " wrappingWidth="183.1484375" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="30.0" left="20.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="5.0" top="20.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Introducir Credito:" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Text>
+      <TextField fx:id="iderror" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="5.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Comentarios" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+   </children>
+</GridPane>
